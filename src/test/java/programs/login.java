@@ -20,6 +20,6 @@ public class login{
 		driver.findElement(By.id("password")).sendKeys("123987600");
 		driver.findElement(By.id("login")).click();
 		Assert.assertEquals(false, null);
-		System.out.println("Assert is done");
+		System.out.println("Assert is created");
 	}
 }
